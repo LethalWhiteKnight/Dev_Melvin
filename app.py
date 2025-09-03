@@ -7,7 +7,7 @@ sc = SpellChecker(DEMO_CORPUS)
 
 st.set_page_config(page_title="Levenshtein Spell Checker", page_icon="📝")
 
-st.title("🔍 Spell Checker (Levenshtein Distance)")
+st.title("Spell Checker (Levenshtein Distance)")
 st.write("Type a word below, and see suggestions + animated backtrace of edits.")
 
 # Input box
